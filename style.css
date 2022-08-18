@@ -1,0 +1,175 @@
+.imagel{
+    left: 40%;
+    padding: 10rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 15px;
+}
+
+.head{
+    position: relative;
+    width:100%;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 9px;
+}
+
+.mid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product{
+    overflow: hidden;
+    width: 200px;
+    height: 280px;
+    border: 1px solid grey;
+    border-radius: 9px;
+}
+
+.imagePart{
+    overflow: hidden;
+    height: 200px;
+    background-color: azure;
+    box-shadow: 1px;
+    border-radius: 7px;
+}
+
+.textPart{
+    width: 200px;
+    height: 30px;   
+}
+    
+
+.textName{
+        text-align: center;
+        height: 40px;
+        border-radius: 7px; 
+}
+
+.image{
+    width: 100%;
+}
+
+.pricePart{
+    gap: 5px;
+    display: flex;
+    width: 200px;
+    height: 30px;
+}
+
+.price{
+    margin-left: 5px;
+}
+
+.heartImg{
+    position: absolute;
+    margin-left: 160px; 
+}
+
+.heartRed{
+    position: absolute;
+    margin-left: 160px;  
+}
+
+.basketImg{ 
+    margin-left: 40px;
+}
+
+.basketPlus{
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 2%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 19, 43, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  
+    background-color: white;
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+
+  .basketsProduct{
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px;
+
+  }
+
+  .productBaskets {
+    width: 160px;
+    height: 240px;
+    border: 1px solid grey;
+    border-radius: 9px;
+  }
+
+  .imagePartBaskets{
+    overflow: hidden;
+    height: 160px;
+    background-color: azure;
+    box-shadow: 1px;
+    border-radius: 7px;   
+  }
+
+  .imageBaskets{
+    width: 100%;
+  }
+
+  .textPartBaskets {
+    text-align: center;
+    width: 162px;
+    height: 40px;
+  }
+
+  .textNameBaskets{
+    text-align: center;
+    height: 40px;
+    border-radius: 7px;
+  }
+
+
+  .pricePartBaskets{
+    margin-left: 5px;
+    gap: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    height: 40px;
+  }
+
+  .imageDel{
+   
+    margin-left: 10px; 
+  }
